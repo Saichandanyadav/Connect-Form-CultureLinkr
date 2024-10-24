@@ -1,0 +1,142 @@
+body {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: #ff5f6d;
+  background: linear-gradient(90deg, #ff5f6d, #ffc371);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #ff5f6d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #feb47b;
+}
+
+.success-message {
+  margin-top: 20px;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+.follow-me {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.follow-me p {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.follow-link {
+  margin: 0 10px;
+  color: #ff5f6d;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.follow-link:hover {
+  color: #feb47b;
+  text-decoration: underline;
+}
+
+
+@media screen and (max-width: 768px) {
+  .app-container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  input,
+  textarea {
+    padding: 8px;
+  }
+
+  button {
+    padding: 8px 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  .app-container {
+    padding: 15px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  input,
+  textarea {
+    font-size: 1em;
+    padding: 7px;
+  }
+
+  button {
+    font-size: 1em;
+    padding: 8px 12px;
+  }
+
+  .follow-link {
+    font-size: 1em;
+  }
+}
