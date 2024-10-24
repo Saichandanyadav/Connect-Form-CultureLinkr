@@ -61,8 +61,7 @@ This project is a simple contact form built using React (Vite) that allows users
 
 ## Live Demo
 
-You can check the live demo here: [Live Demo Link][(https://your-live-demo-link.com)](https://connect-form-culture-linkr-chandan.vercel.app/)
-
+You can check the live demo here: [Live Demo Link][(https://connect-form-culture-linkr-chandan.vercel.app/)]
 ## Contributing
 
 If you'd like to contribute to this project, feel free to open a pull request or issue.
